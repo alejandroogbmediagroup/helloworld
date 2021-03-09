@@ -4,18 +4,22 @@
     <br>
     <img alt="Vue logo" src="./assets/nieva.jpg" />
     <HelloWorld msg="D11" />
+    <teamComponetVue/>
   </div>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
 import HeaderComponent from "./components/headerComponent.vue";
+import teamComponetVue from './components/teamComponet.vue';
 
 export default {
   name: "App",
   components: {
     HelloWorld,
     HeaderComponent,
+    teamComponetVue
+
   },
 };
 </script>
